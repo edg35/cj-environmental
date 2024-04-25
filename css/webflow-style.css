@@ -2101,11 +2101,11 @@ textarea.w-input, textarea.w-select {
   --untitled-ui--gray800: #1d2939;
   --untitled-ui--gray100: #f2f4f7;
   --spark-library--foreground-secondary: rgba(0, 0, 0, .76);
-  --spark-library--foreground-interactive: #5532fa;
+  --spark-library--foreground-interactive: #183d62;
   --untitled-ui--gray200: #eaecf0;
   --cjs: #ffab11;
   --spark-library--white: white;
-  --spark-library--foreground-interactive-hover: #1e116e;
+  --spark-library--foreground-interactive-hover: #183d62;
   --spark-library--background--interactive: #f0ecfd;
   --spark-library--black: black;
   --spark-library--light-steel-purple: #a695fb;
