@@ -2085,6 +2085,7 @@ textarea.w-input, textarea.w-select {
   display: grid;
 }
 
+/*! variables */
 :root {
   --cj: var(--color);
   --untitled-ui--gray600: #475467;
@@ -5143,7 +5144,6 @@ textarea.w-input, textarea.w-select {
   grid-column-gap: .5rem;
   border: 1px solid var(--cj);
   background-color: var(--cj);
-  pointer-events: none;
   color: var(--untitled-ui--white);
   text-align: center;
   white-space: nowrap;
@@ -5162,13 +5162,13 @@ textarea.w-input, textarea.w-select {
 }
 
 .uui-button-4:hover {
-  border-color: var(--untitled-ui--primary700);
-  background-color: var(--untitled-ui--primary700);
+  border-color: var(--cjs);
+  background-color: var(--cjs);
 }
 
 .uui-button-4:focus {
-  background-color: var(--untitled-ui--primary600);
-  box-shadow: 0 1px 2px 0 rgba(16, 24, 40, .05), 0 0 0 4px var(--untitled-ui--primary100);
+  background-color: var(--cj);
+  box-shadow: 0 1px 2px 0 rgba(16, 24, 40, .05), 0 0 0 4px var(--cjs);
 }
 
 .uui-form-button-wrapper {
